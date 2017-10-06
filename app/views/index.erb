@@ -1,5 +1,9 @@
 <h1> Welcome to the Comedian Page!</h1>
 
+<h2> Average Age: <%=@comedians.average("age").round%> </h2>
+
+
+
   <ul>
     <% @comedians.each do |comedian| %>
     <li> Name: <%=comedian.name%> </li>
