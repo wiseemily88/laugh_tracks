@@ -1,4 +1,4 @@
 class Comedian < ActiveRecord::Base
-  belongs_to :special
+  has_many :specials
 
 end
