@@ -1,0 +1,9 @@
+<h1> Welcome to the Comedian Page!</h1>
+
+  <ul>
+    <% @comedians.each do |comedian| %>
+    <li> Name: <%=comedian.name%> </li>
+    <li> Age: <%=comedian.age%> </li> <br>
+    <% end %>
+
+  </ul>
